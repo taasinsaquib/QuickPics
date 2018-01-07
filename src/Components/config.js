@@ -1,3 +1,8 @@
+import intro1 from "../images/Intro/Intro1.jpg";
+import cactus1 from "../images/Cactus/Cactus1.jpg";
+import dahlia1 from "../images/Dahlia/Dahlia1.jpg";
+import flower1 from "../images/Flower/Flower1.jpg";
+
 var config = {
 	"albums": [
 
@@ -5,7 +10,7 @@ var config = {
 			"albumName": "Intro",
 			"images": [
 				{
-					"image": "../images/Intro/Intro1.jpg",
+					"image": intro1,
 					"width": "1080",
           "height": "920"
 				},
@@ -16,7 +21,7 @@ var config = {
 			"albumName": "Cactus",
 			"images": [
 				{
-					"image": "../images/Cactus/Cactus1.jpg",
+					"image": cactus1,
 					"width": "1080",
           "height": "920"
 				},
@@ -27,7 +32,7 @@ var config = {
       "albumName": "Dahlia",
 			"images": [
 				{
-					"image": "../images/Dahlia/Dahlia1.jpg",
+					"image": dahlia1,
 					"width": "1080",
           "height": "920"
 				},
@@ -38,7 +43,7 @@ var config = {
       "albumName": "Flower",
 			"images": [
 				{
-					"image": "../images/Flower/Flower1.jpg",
+					"image": flower1,
 					"width": "1080",
           "height": "920"
 				},
