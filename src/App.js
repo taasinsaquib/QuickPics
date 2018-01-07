@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Intro from './Intro';
-import Album from './Album';
+import Intro from './Components/Intro';
+import AlbumContainer from './Components/AlbumContainer';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <Intro />
-        <Album />
-        
+        <AlbumContainer />
+
       </div>
     );
   }
