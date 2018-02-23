@@ -9,7 +9,7 @@ class Album extends Component{
       this.props.images.map(function(i){
         var pic = i.image
         console.log(pic);
-        return <div><img src={pic}/></div>
+        return <div class="album"><img class="img" src={pic}/></div>
 
       })
 
