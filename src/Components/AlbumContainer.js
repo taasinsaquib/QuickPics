@@ -13,10 +13,12 @@ class AlbumContainer extends Component{
   }
 
   render(){
-    
+
     return(
+
         this.state.albums.map(function(keys){
-          return <Album name={keys.albumName} images = {keys.images} />
+          console.log(keys);
+          return <Album name={keys.albumName} images={keys.images} />
         })
 
     );

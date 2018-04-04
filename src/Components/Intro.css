@@ -6,11 +6,15 @@
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-name{
   /*float: left;*/
   position: absolute;
+
   /*margin: 0 auto;*/
 }
 
